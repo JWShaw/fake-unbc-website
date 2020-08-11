@@ -1,0 +1,139 @@
+body {
+    text-align: center;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Title section */
+
+#title {
+    text-align: left;
+    background-color: #035642;
+    color: white;
+}
+
+.title-img {
+    padding: 5px;
+    width: 100%;
+    position: absolute;
+    top: -6%;
+    right: -2%;
+}
+
+.title-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Navigation bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.logo-navbar {
+    width: 250px;
+}
+
+.nav-link {
+    color: #E5EEEB;
+}
+
+.nav-link:hover {
+    color: #B3CCC6;
+}
+
+/* Tweaks for smaller viewports */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .container-fluid {
+        padding: 3% 5%;
+    }
+
+    .title-img {
+        position: static;
+    }
+}
+
+@media (max-width: 395px) {
+    .logo-navbar {
+        width: 200px;
+    }
+}
+
+/* Features section */
+
+#features {
+    background-color: white;
+    position: relative;
+}
+
+.feature {
+    padding: 4.5%;
+}
+
+.feature-icon {
+    color: #035642;
+}
+
+.feature-icon :hover {
+    color: #689A8F;
+}
+
+.feature-name {
+    font-size: 1.5rem;
+    padding: 0.75em 0 0 0;
+}
+
+/* Testimonals section */
+
+#testimonials {
+    background-color: #035642;
+    color: white;
+}
+
+#testimonials .container-fluid {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.testimonial-image {
+    width: 100px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Call-to-action section */
+
+.call-to-action-btn {
+    margin: 3% 1.5%;
+}
+
+#call-to-action .container-fluid {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+/* Footer section */
+
+#footer {
+    background-color: #035642;
+    color: white;
+}
+
+.social-media-btn {
+    padding: 2rem;
+}
+
+.copyright-text {
+    margin: 2% 0 0 0;
+}
