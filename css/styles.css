@@ -10,12 +10,19 @@ h1, h2 {
     padding: 3% 15%;
 }
 
+.green-section {
+    background-color: #035642;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
 /* Title section */
 
 #title {
     text-align: left;
-    background-color: #035642;
-    color: white;
 }
 
 .title-img {
@@ -40,16 +47,9 @@ h1, h2 {
     width: 250px;
 }
 
-.nav-link {
-    color: #E5EEEB;
-}
-
-.nav-link:hover {
-    color: #B3CCC6;
-}
-
 /* Tweaks for smaller viewports */
 
+/* Center text and move image down on smaller screens */
 @media (max-width: 1028px) {
     #title {
         text-align: center;
@@ -64,6 +64,7 @@ h1, h2 {
     }
 }
 
+/* Shrink logo slightly on smartphones */
 @media (max-width: 395px) {
     .logo-navbar {
         width: 200px;
@@ -73,7 +74,6 @@ h1, h2 {
 /* Features section */
 
 #features {
-    background-color: white;
     position: relative;
 }
 
@@ -95,11 +95,6 @@ h1, h2 {
 }
 
 /* Testimonals section */
-
-#testimonials {
-    background-color: #035642;
-    color: white;
-}
 
 #testimonials .container-fluid {
     padding-top: 7%;
@@ -124,11 +119,6 @@ h1, h2 {
 }
 
 /* Footer section */
-
-#footer {
-    background-color: #035642;
-    color: white;
-}
 
 .social-media-btn {
     padding: 2rem;
