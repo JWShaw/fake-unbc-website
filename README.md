@@ -1,4 +1,4 @@
-# Fake UNBC Website
+# Mock UNBC Website
 
 Here's what UNBC's website might look like in a parallel universe:
 
